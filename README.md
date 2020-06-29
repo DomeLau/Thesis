@@ -8,15 +8,15 @@ This GitHub Repository contains the files for my Master's thesis. Right here, I 
 
 # Python Code Files
 
-- Data Cleaning
+## Data Cleaning
 
 This file contains the first stage of the data cleaning process. I filter out households that, for example, report negative income values, are not observed in waves 1 or 2 or have less than 8 monthly observations. Comments in the code give further details.
 
-- Final Code Household Data
+## Final Code Household Data
  
 This file contains the main analysis of the thesis at the household level. In the beginning I load the cleaned csv file that I produced in the Data Cleaning code file.                         I exclude further households based on income and family size (detailed description in the thesis PDF file and the code itself). Then I split the data set in two groups and set up the uplift modeling. In the following, I make estimations using the RandomForestRegressor algorithm and report results. The next sections contain further analysis in terms of feature importance, extrapolation and partial dependence plots.
 
-- Final Code Individual Data
+## Final Code Individual Data
 
 This file contains a shorter analysis of the data at individual level. Only Table 5.4, Figure 5.9, Tables A.8 and A.9 in the appendix as well as Figure B.7 in the appendix rely on this data. The structure is more or less identical to the structure in the Final Code Household Data file.
 
@@ -24,11 +24,11 @@ This file contains a shorter analysis of the data at individual level. Only Tabl
 
 # DTA Files
 
-- household.dta
+## household.dta
 
 This file contains the raw data at the household level. I use it in the Final Code Household Data Python file.
 
-- individual.dta
+## individual.dta
 
 This file contains the raw data at the individual level. I use it in the Final Code Individual Data Python file.
 
@@ -36,11 +36,11 @@ This file contains the raw data at the individual level. I use it in the Final C
 
 # PDF Files
 
-- Master’s Thesis Dominik Lauer
+## Master’s Thesis Dominik Lauer
 
 This file contains the written thesis as PDF file. It includes background information, theoretical explanations and the analysis of the estimation results. It also contains a variety of tables and plots in the appendix section. 
 
-- Supplementary Appendix
+## Supplementary Appendix
 
 This file contains more graphical illustrations. 
 
