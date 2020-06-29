@@ -8,6 +8,7 @@ This GitHub Repository contains the files for my Master's thesis. Right here, I 
 **Python Code Files**
 
 - Data Cleaning
+
 This file contains the first stage of the data cleaning process. I filter out households that, for example, report negative income values, are not observed in waves 1 or 2 or have less than 8 monthly observations. Comments in the code give further details.
 
 - Final Code Household Data
