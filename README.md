@@ -22,7 +22,7 @@ This file contains a shorter analysis of the data at individual level. Only Tabl
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-**DTA Files**
+# DTA Files
 
 - household.dta
 
@@ -34,7 +34,7 @@ This file contains the raw data at the individual level. I use it in the Final C
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-**PDF Files**
+# PDF Files
 
 - Master’s Thesis Dominik Lauer
 
@@ -46,7 +46,7 @@ This file contains more graphical illustrations.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-**Codebook for variables used in the main analysis (Final Code Household Data)**
+# Codebook for variables used in the main analysis (Final Code Household Data)
 Variable descriptions from the SIPP 2008 Panel Waves 01-10 Core Data Dictionary
 
 - tfearn
@@ -134,7 +134,7 @@ Indicates whether the rebate received is used for paying off debt (rebate_paymen
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-**Codebook for variables used in the secondary analysis (Final Code Individual Data)**
+# Codebook for variables used in the secondary analysis (Final Code Individual Data)
 Variable descriptions from the SIPP 2008 Panel Waves 01-10 Core Data Dictionary
 
 - tpearn
