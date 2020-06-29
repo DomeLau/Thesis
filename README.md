@@ -57,77 +57,82 @@ Reaggregated total family earned income in $US for relevant month of the referen
 
 Dummy variable, 1 if household’s head is married, 0 if not.
 
-- flex
+#### flex
 
 Describes the number of hourly workers in a household.
 
-- tage
+#### tage
 
 Household’s head age as of last birthday.
 
-- famsize
+#### famsize
 
 Describes the number of people living in a household.
 
-- selfemp
+#### selfemp
 
 Indicator whether household’s head is a self employed worker: 
+
 0 .not in universe 
 1 .yes
 2 .no
 
-- moonlit
+#### moonlit
 
 Describes if household’s head does work outside of her regular job, such as freelancing, consulting, or moonlighting. 
+
 0 .not in universe
 1 .yes
 2 .no
 
-- reb_month_numerical
+#### reb_month_numerical
 
 Numerical value for month of rebate payment. Values from 1 to 12.
 
-- swave
+#### swave
 
 Numerical value for observation’s wave. Values are 1 or 2. 
 
-- year
+#### year
 
 Indicates the observation’s year. Values are 2008 or 2009.
 
--	srefmon_numerical
+####	srefmon_numerical
 
 Numerical value for the reference month of the observation. Values from 1 to 4.
 
--	rebate_payment
+####	rebate_payment
 
 Dummy variable, 1 if rebate payment occurs for observation, 0 otherwise.
 
-- month_numerical
+#### month_numerical
 
 Numerical value for month of observation. Values from 1 to 12. 
 
-- rebate_uplifting
+#### rebate_uplifting
 
 Describes the size of the rebate payment in rebate months (rebate_payment == 1).
 
-- rebate_uplifting_spend
+#### rebate_uplifting_spend
 
 Indicates whether the rebate received is used for increasing consumption spending (rebate_payment == 1).
+
 0 .not in universe
 1 .yes
 2 .no
 
-- rebate_uplifting_save
+#### rebate_uplifting_save
 
 Indicates whether the rebate received is used for increasing savings (rebate_payment == 1).
+
 0 .not in universe
 1 .yes
 2 .no
 
-- rebate_uplifting_debt
+#### rebate_uplifting_debt
 
 Indicates whether the rebate received is used for paying off debt (rebate_payment == 1). 
+
 0 .not in universe
 1 .yes
 2 .no
@@ -137,27 +142,30 @@ Indicates whether the rebate received is used for paying off debt (rebate_paymen
 # Codebook for variables used in the secondary analysis (Final Code Individual Data)
 Variable descriptions from the SIPP 2008 Panel Waves 01-10 Core Data Dictionary
 
-- tpearn
+#### tpearn
 
-personal earnings in $US for relevant month of the reference period
+personal earnings in $US for relevant month of the reference period.
 
-- epayhr1
+#### epayhr1
 
 Paid by the hour. 
+
 -1 .not in universe
 1 .yes (paid by the hour)
 2 .no (set annual salary or other way) 
 
-- ehrsall
+#### ehrsall
 
-Usual hours worked at all jobs during the reference period
+Usual hours worked at all jobs during the reference period.
+
 -1 .not in universe
 0 .not determined
 1:99 .hours per week
 
-- rmhrswk
+#### rmhrswk
 
-Usual hours worked per week recode in month
+Usual hours worked per week recode in month.
+
 -1 .Not in Universe 
 0 .Did not work (did not have a job, or was absent without pay from a job all weeks in month) 
 1 .All weeks 35+ 
@@ -167,9 +175,10 @@ Usual hours worked per week recode in month
 5 .At least 1 but not all weeks 35+ hours, all other weeks 0 hours 
 6 .At least 1 week but not all weeks 1 to 34 hours, all other weeks 0 hours
 
-- eptresn
+#### eptresn
 
-Main reason for working less than 35 hours
+Main reason for working less than 35 hours.
+
 -1 .Not in Universe 
 1 .Could not find full-time job 
 2 .Wanted to work part time 
@@ -184,23 +193,26 @@ Main reason for working less than 35 hours
 11 .In school 
 12 .Other
 
-- eptwrk
+#### eptwrk
 
-Worked less than 35 hours some weeks
+Worked less than 35 hours some weeks.
+
 -1 .Not in Universe 
 1 .Yes 
 2 .No
 
-- eawop
+#### eawop
 
-Had full-week unpaid absences from work
+Had full-week unpaid absences from work.
+
 -1 .Not in Universe 
 1 .Yes 
 2 .No
 
-- eabre
+#### eabre
 
-Main reason for being absent without pay
+Main reason for being absent without pay.
+
 -1 .Not in Universe 
 1 .On layoff (temporary or indefinite) 
 2 .Slack work or business conditions 
@@ -215,15 +227,17 @@ Main reason for being absent without pay
 11 .Participated in a job-sharing arrangement 
 12 .Other
 
-- tmlmsum
+#### tmlmsum
 
-Amount of income from moonlighting or extra jobs in this month
+Amount of income from moonlighting or extra jobs in this month.
+
 0 .None or not in universe 
 1:66666 .Dollars
 
-- rmesr
+#### rmesr
 
-Employment status recode for month
+Employment status recode for month.
+
 -1 .Not in Universe 
 1 .With a job entire month, worked all weeks. 
 2 .With a job entire month, absent from work without pay 1+ weeks, absence not due to layoff 
@@ -234,9 +248,10 @@ Employment status recode for month
 7 .No job all month, at least one but not all weeks on layoff or looking for work 
 8 .No job all month, no time on layoff and no time looking for work. 
 
-- rmwksab
+#### rmwksab
 
-Number of weeks absent without pay from job in month
+Number of weeks absent without pay from job in month.
+
 -1 .Not in Universe 
 0 .0 weeks (that is, did not have a job, or not absent without pay from a job) or not applicable 
 1 .1 week 
@@ -245,9 +260,10 @@ Number of weeks absent without pay from job in month
 4 .4 weeks 
 5 .5 weeks (if applicable)
 
-- rmwkwjb
+#### rmwkwjb
 
-Number of weeks with a job in month
+Number of weeks with a job in month.
+
 -1 .Not in Universe 
 0 .0 weeks (that is, did not look for work, and was not on layoff) or not applicable 
 1 .1 week 
@@ -256,16 +272,18 @@ Number of weeks with a job in month
 4 .4 weeks 
 5 .5 weeks (if applicable)
 
-- rwksperm
+#### rwksperm
 
-Number of weeks in this month
+Number of weeks in this month.
+
 -1 .Not in Universe 
 4 .Four weeks 
 5 .Five weeks
 
-- epdjbthn
+#### epdjbthn
 
-Paid job during the reference period
+Paid job during the reference period.
+
 -1 .Not in Universe
 1 .Yes 
 2 .No
