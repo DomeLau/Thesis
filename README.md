@@ -2,8 +2,9 @@
 
 **The Impact of Transitory Income Shocks on Labor Supply Decisions: A Machine Learning Approach**
 
-
 This GitHub Repository contains the files for my Master's thesis. Right here, I give an overview of the data and code files accompanying the thesis. Further, I include a description of the main variables used during the analysis. 
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 **Python Code Files**
 
@@ -19,6 +20,8 @@ This file contains the main analysis of the thesis at the household level. In th
 
 This file contains a shorter analysis of the data at individual level. Only Table 5.4, Figure 5.9, Tables A.8 and A.9 in the appendix as well as Figure B.7 in the appendix rely on this data. The structure is more or less identical to the structure in the Final Code Household Data file.
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 **DTA Files**
 
 - household.dta
@@ -29,6 +32,8 @@ This file contains the raw data at the household level. I use it in the Final Co
 
 This file contains the raw data at the individual level. I use it in the Final Code Individual Data Python file.
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 **PDF Files**
 
 - Master’s Thesis Dominik Lauer
@@ -38,6 +43,8 @@ This file contains the written thesis as PDF file. It includes background inform
 - Supplementary Appendix
 
 This file contains more graphical illustrations. 
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 **Codebook for variables used in the main analysis (Final Code Household Data)**
 Variable descriptions from the SIPP 2008 Panel Waves 01-10 Core Data Dictionary
@@ -124,6 +131,8 @@ Indicates whether the rebate received is used for paying off debt (rebate_paymen
 0 .not in universe
 1 .yes
 2 .no
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 **Codebook for variables used in the secondary analysis (Final Code Individual Data)**
 Variable descriptions from the SIPP 2008 Panel Waves 01-10 Core Data Dictionary
