@@ -6,7 +6,7 @@ This GitHub Repository contains the files for my Master's thesis. Right here, I 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-**Python Code Files**
+# Python Code Files
 
 - Data Cleaning
 
