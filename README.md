@@ -49,11 +49,11 @@ This file contains more graphical illustrations.
 # Codebook for variables used in the main analysis (Final Code Household Data)
 Variable descriptions from the SIPP 2008 Panel Waves 01-10 Core Data Dictionary
 
-- tfearn
+#### tfearn
 
 Reaggregated total family earned income in $US for relevant month of the reference period after topcoding amounts.
 
-- spouse
+#### spouse
 
 Dummy variable, 1 if household’s head is married, 0 if not.
 
