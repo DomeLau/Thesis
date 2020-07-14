@@ -36,7 +36,7 @@ This file contains the raw data at the individual level. I use it in the Final C
 
 # PDF Files
 
-## Master’s Thesis Dominik Lauer
+## Dominik Lauer Master’s Thesis
 
 This file contains the written thesis as PDF file. It includes background information, theoretical explanations and the analysis of the estimation results. It also contains a variety of tables and plots in the appendix section. 
 
