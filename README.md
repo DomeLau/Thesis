@@ -24,7 +24,7 @@ This file contains a shorter analysis of the data at individual level. Only Tabl
 
 # Data Files
 
-All data files can be accessed via https://drive.google.com/drive/folders/1mSzhmv2pDcY4fdYEYqiVd4-tu3ECRG8j .
+All data files can be accessed via https://drive.google.com/drive/folders/1mSzhmv2pDcY4fdYEYqiVd4-tu3ECRG8j?usp=sharing .
 
 ## DTA Files
 
