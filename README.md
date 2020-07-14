@@ -22,15 +22,31 @@ This file contains a shorter analysis of the data at individual level. Only Tabl
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# DTA Files
+# Data Files
 
-## household.dta
+All data files can be accessed via https://drive.google.com/drive/folders/1mSzhmv2pDcY4fdYEYqiVd4-tu3ECRG8j .
 
-This file contains the raw data at the household level. I use it in the Final Code Household Data Python file.
+## DTA Files
 
-## individual.dta
+### household.dta
 
-This file contains the raw data at the individual level. I use it in the Final Code Individual Data Python file.
+This file contains the raw data at the household level. 
+
+### individual.dta
+
+This file contains the raw data at the individual level.
+
+## CSV Files
+
+These files are created during the data cleaning process in the Data Cleaning Python file. They contain the cleaned data that is used for the estimations. 
+
+### Cleaned_Data_Household.csv
+
+This file contains the cleaned data at the household level. I use it in the Final Code Household Data Python file.
+
+### Cleaned_Data_Individual.csv
+
+This file contains the cleaned data at the individual level. I use it in the Final Code Individual Data Python file.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
