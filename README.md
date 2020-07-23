@@ -69,7 +69,7 @@ https://www.census.gov/content/dam/Census/programs-surveys/sipp/tech-documentati
 
 #### tfearn
 
-Reaggregated total family earned income in $US for relevant month of the reference period after topcoding amounts.
+Reaggregated total family earned income in US Dollar for relevant month of the reference period after topcoding amounts.
 
 #### spouse
 
@@ -169,10 +169,12 @@ Indicates whether the rebate received is used for paying off debt (rebate_paymen
 
 # Codebook for variables used in the secondary analysis (Final Code Individual Data)
 Variable descriptions from the SIPP 2008 Panel Waves 01-10 Core Data Dictionary
+https://www.census.gov/content/dam/Census/programs-surveys/sipp/tech-documentation/data-dictionaries/2008/SIPP%202008%20Panel%20Waves%2001-10%20-%20Core%20Data%20Dictionary.pdf
+
 
 #### tpearn
 
-personal earnings in $US for relevant month of the reference period.
+personal earnings in US Dollar for relevant month of the reference period.
 
 #### epayhr1
 
