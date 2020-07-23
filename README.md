@@ -64,6 +64,8 @@ This file contains more graphical illustrations.
 
 # Codebook for variables used in the main analysis (Final Code Household Data)
 Variable descriptions from the SIPP 2008 Panel Waves 01-10 Core Data Dictionary
+https://www.census.gov/content/dam/Census/programs-surveys/sipp/tech-documentation/data-dictionaries/2008/SIPP%202008%20Panel%20Waves%2001-10%20-%20Core%20Data%20Dictionary.pdf
+
 
 #### tfearn
 
